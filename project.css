@@ -1,0 +1,219 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(wp3232945-orange-background-hd.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Menu-bar
+{
+    background-color: rgba(202, 67, 18, 0.877);
+    text-align: center;
+    
+
+}
+.Menu-bar ul
+{
+    
+    display: inline-flex;
+    list-style: none;
+    color: rgb(245, 100, 3);
+    
+    
+
+}
+.Menu-bar ul li
+{
+    width: 120px;
+    margin: 20px;
+    padding: 15px;
+
+
+}
+.Menu-bar ul li a
+{
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+
+}
+.active, .Menu-bar ul li a:hover
+{
+    background-color: #2c1703  ;
+    border-radius:  block;
+
+
+}
+.Menu-bar .fa
+{
+    margin: 1px;
+
+}
+.Sub-menu
+{
+    display: none;
+
+
+}
+.Menu-bar ul li:hover .Sub-menu
+{
+    display: block;
+    position: absolute;
+    background: rgba(255, 68, 0, 0.671);
+    margin-top: 20px;
+    margin-left: -15px;
+
+
+}
+.Menu-bar ul li:hover .Sub-menu ul
+{
+    display:block;
+    margin: 20px;
+    
+}
+.Menu-bar ul li:hover .Sub-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.Menu-bar ul li:hover .Sub-menu ul li :last-child
+{
+    border-bottom: none;
+}
+.Menu-bar ul li:hover .Sub-menu ul li a:hover
+{
+    color: #ff4800;
+}
+
+.div {
+    
+        background-image: url('hero_watch_ultra__cbu8ymf4a8xe_large.jpg');
+        background-position-y: -50px;
+        background-size: cover;
+        height: 90vh;
+        background-position:center;
+        padding-top:30px;
+        margin-bottom: 10p
+
+}
+.slider{
+    width: 100%;
+    display: flex;
+
+}
+img{
+    width: 100%;
+}
+.slider_image{
+    display: flex;
+}
+.btn-container{
+    margin: auto;
+
+}
+.btn{
+    padding: 10px 10px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.form{
+    
+    
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 210px;
+    
+    left: 1035px;
+    transform: translate(0%,-5%);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.form h2{
+    
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ec3e09;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff2600;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #d64005;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: rgb(223, 201, 201);
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: rgb(8, 2, 0);
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff0000;
+    
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
